@@ -23,3 +23,11 @@ Stress resistance, self-organised, self-education.
                 </form>
             </div>
 ```
+## Work Exp
+* 2014-2021 Work as hairdresser in Mogilev, Minsk(Belarus), and St. Petersburg(Russia).
+Responsibilities: men's and women's haircuts, hairstyles, coloring, work with clients.Posting my works in social networks and many other responsibilities connected with this activity.
+## Education
+* 2010-2013 Technological Vocational and Technical College (MGTPTK), Mogilev
+School of hairdressing.
+## English level
+I estimate my English level at А1.
