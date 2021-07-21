@@ -26,21 +26,33 @@ body {
   color: #85b6e7;
 }
 .header__logo {
-  height: 300px;
+  height: 350px;
   position: absolute;
   top: 10px;
   right: 200px;
 }
 .header__contacts {
   margin-top: 30px;
-  width: 500px;
+  width: 600px;
   display: flex;
   flex-flow: row wrap;
 }
 .header__contacts-tel {
   width: 250px;
-  padding-bottom: 10px;
+  padding: 10px 5px;
   text-decoration: none;
   cursor: pointer;
   color: #201f1f;
+}
+
+.Self-info {
+  border-top: solid 1px #000;
+  width: 800px;
+  margin-top: 50px;
+}
+.Self-info__title {
+  font-size: 30px;
+}
+.Self-info__subtitle {
+  padding-top: 20px;
 }
