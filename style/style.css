@@ -44,8 +44,13 @@ body {
   cursor: pointer;
   color: #201f1f;
 }
+.header__contacts-tel:hover {
+  color: #708be4;
+  transition: 0.4s;
+}
 
 .Self-info {
+  padding: 10px;
   border-top: solid 1px #000;
   width: 800px;
   margin-top: 50px;
@@ -54,5 +59,29 @@ body {
   font-size: 30px;
 }
 .Self-info__subtitle {
+  padding-top: 20px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-top: solid 1px #000;
+  margin-top: 50px;
+}
+.skills__text {
+  width: 500px;
+}
+.skills__title {
+  font-size: 30px;
+}
+.skills__description {
+  padding-top: 20px;
+}
+.skills__description-li {
+  padding-bottom: 10px;
+}
+.skills__subtitle {
+  width: 700px;
   padding-top: 20px;
 }

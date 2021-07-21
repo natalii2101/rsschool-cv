@@ -44,12 +44,17 @@ body {
             text-decoration: none;
             cursor: pointer;
             color: rgb(32, 31, 31);
+            &:hover{
+                color: rgb(112, 139, 228);
+                transition: .4s;
+            }
             
         }
    
     }
 }
 .Self-info{
+    padding: 10px;
     border-top: solid 1px #000;
     width: 800px;
     margin-top: 50px;
@@ -58,5 +63,28 @@ body {
     }
     &__subtitle{
         padding-top: 20px;
+    }
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-top: solid 1px #000;
+    margin-top: 50px;
+    &__text{
+        width: 500px;
+    }
+    &__title{
+        font-size: 30px;
+    }
+    &__description{
+        padding-top: 20px;
+        &-li{
+            padding-bottom: 10px;
+        }
+    }
+    &__subtitle{
+     width: 700px; 
+     padding-top: 20px; 
     }
 }
