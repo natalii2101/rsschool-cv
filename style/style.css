@@ -1,4 +1,46 @@
 @import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 :root {
   box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  background: #f0f5fa;
+  font-size: 20px;
+}
+
+.header {
+  position: relative;
+}
+.header__title {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  font-size: 45px;
+  color: #101214;
+}
+.header__subtitle {
+  font-size: 30px;
+  color: #85b6e7;
+}
+.header__logo {
+  height: 300px;
+  position: absolute;
+  top: 10px;
+  right: 200px;
+}
+.header__contacts {
+  margin-top: 30px;
+  width: 500px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.header__contacts-tel {
+  width: 250px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #201f1f;
 }
