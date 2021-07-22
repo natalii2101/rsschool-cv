@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-:root {
+* {
     box-sizing: border-box;
 }
 
@@ -12,7 +12,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #f0f5fa;
     font-size: 20px;
-
 }
 
 .header {
@@ -35,7 +34,6 @@ body {
         position: absolute;
         top: 10px;
         right: 80px;
-
     }
 
     &__contacts {
@@ -55,13 +53,11 @@ body {
                 color: rgb(112, 139, 228);
                 transition: .4s;
             }
-
         }
-
     }
 }
 
-.Self-info {
+.self-info {
     padding: 10px;
     border-top: solid 1px #000;
     width: 800px;
@@ -94,7 +90,7 @@ body {
     &__description {
         padding-top: 20px;
 
-        &-li {
+        &-item {
             padding-bottom: 10px;
         }
     }
@@ -107,28 +103,19 @@ body {
 
 .aboutme {
     display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    border-top: solid 1px #000;
-
-    &__workexp {
-        width: 600px;
-        border-right: solid 1px #000;
+    
+    &__item {
+        border-top: solid 1px #000;
         padding: 10px 20px;
 
-        &-title {
-            font-size: 30px;
-            margin: 20px 0px;
+        &:not(:last-child) {
+            border-right: solid 1px #000;
         }
     }
 
-    &__education {
-        border-right: solid 1px #000;
-        padding: 10px 20px;
-    }
-
-    &__english {
-        padding: 10px 20px;
+    &__title {
+        font-size: 30px;
+        margin: 20px 0px;
     }
 }
 
@@ -140,7 +127,6 @@ body {
         display: flex;
         flex-flow: row;
         justify-content: space-between;
-
     }
 
     &__git {

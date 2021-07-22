@@ -1,6 +1,6 @@
 @import url(reset.css);
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
-:root {
+* {
   box-sizing: border-box;
 }
 
@@ -49,16 +49,16 @@ body {
   transition: 0.4s;
 }
 
-.Self-info {
+.self-info {
   padding: 10px;
   border-top: solid 1px #000;
   width: 800px;
   margin-top: 50px;
 }
-.Self-info__title {
+.self-info__title {
   font-size: 30px;
 }
-.Self-info__subtitle {
+.self-info__subtitle {
   padding-top: 20px;
 }
 
@@ -78,7 +78,7 @@ body {
 .skills__description {
   padding-top: 20px;
 }
-.skills__description-li {
+.skills__description-item {
   padding-bottom: 10px;
 }
 .skills__subtitle {
@@ -88,25 +88,17 @@ body {
 
 .aboutme {
   display: flex;
-  justify-content: space-between;
-  flex-flow: row nowrap;
-  border-top: solid 1px #000;
 }
-.aboutme__workexp {
-  width: 600px;
-  border-right: solid 1px #000;
+.aboutme__item {
+  border-top: solid 1px #000;
   padding: 10px 20px;
 }
-.aboutme__workexp-title {
+.aboutme__item:not(:last-child) {
+  border-right: solid 1px #000;
+}
+.aboutme__title {
   font-size: 30px;
   margin: 20px 0px;
-}
-.aboutme__education {
-  border-right: solid 1px #000;
-  padding: 10px 20px;
-}
-.aboutme__english {
-  padding: 10px 20px;
 }
 
 .footer {
