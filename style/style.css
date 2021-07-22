@@ -36,13 +36,16 @@ body {
   width: 600px;
   display: flex;
   flex-flow: row wrap;
+  list-style-type: none;
+}
+.header__contacts-item {
+  width: 250px;
+  cursor: pointer;
+  padding: 10px 5px;
 }
 .header__contacts-tel {
-  width: 250px;
-  padding: 10px 5px;
-  text-decoration: none;
-  cursor: pointer;
   color: #201f1f;
+  text-decoration: none;
 }
 .header__contacts-tel:hover {
   color: #708be4;

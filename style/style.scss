@@ -41,13 +41,17 @@ body {
         width: 600px;
         display: flex;
         flex-flow: row wrap;
+        list-style-type: none;
+
+        &-item {
+            width: 250px;
+            cursor: pointer;
+            padding: 10px 5px;
+        }
 
         &-tel {
-            width: 250px;
-            padding: 10px 5px;
-            text-decoration: none;
-            cursor: pointer;
             color: rgb(32, 31, 31);
+            text-decoration: none;
 
             &:hover {
                 color: rgb(112, 139, 228);
@@ -103,7 +107,7 @@ body {
 
 .aboutme {
     display: flex;
-    
+
     &__item {
         border-top: solid 1px #000;
         padding: 10px 20px;
