@@ -1,0 +1,132 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  background: #f0f5fa;
+  font-size: 20px;
+}
+
+.header {
+  position: relative;
+}
+.header__title {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  font-size: 45px;
+  color: #101214;
+}
+.header__subtitle {
+  font-size: 30px;
+  color: #85b6e7;
+}
+.header__logo {
+  height: 350px;
+  position: absolute;
+  top: 10px;
+  right: 80px;
+}
+.header__contacts {
+  margin-top: 30px;
+  width: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+}
+.header__contacts-item {
+  width: 250px;
+  cursor: pointer;
+  padding: 10px 5px;
+}
+.header__contacts-tel {
+  color: #201f1f;
+  text-decoration: none;
+}
+.header__contacts-tel:hover {
+  color: #708be4;
+  transition: 0.4s;
+}
+
+.self-info {
+  padding: 10px;
+  border-top: solid 1px #000;
+  width: 800px;
+  margin-top: 50px;
+}
+.self-info__title {
+  font-size: 30px;
+}
+.self-info__subtitle {
+  padding-top: 20px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-top: solid 1px #000;
+  margin-top: 50px;
+}
+.skills__text {
+  width: 500px;
+}
+.skills__title {
+  font-size: 30px;
+}
+.skills__description {
+  padding-top: 20px;
+}
+.skills__description-item {
+  padding-bottom: 10px;
+}
+.skills__subtitle {
+  width: 700px;
+  padding: 20px 5px;
+}
+
+.aboutme {
+  display: flex;
+}
+.aboutme__item {
+  border-top: solid 1px #000;
+  padding: 10px 20px;
+}
+.aboutme__item:not(:last-child) {
+  border-right: solid 1px #000;
+}
+.aboutme__title {
+  font-size: 30px;
+  margin: 20px 0px;
+}
+
+.footer {
+  background: #22323a;
+  height: 100px;
+}
+.footer__content {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.footer__git {
+  margin: 30px;
+}
+.footer__git-text {
+  text-decoration: none;
+  color: white;
+}
+.footer__git-text:hover {
+  color: #708be4;
+  transition: 0.4s;
+}
+.footer__contacts {
+  margin: 30px;
+}
+.footer__contacts-logo {
+  height: 40px;
+}
