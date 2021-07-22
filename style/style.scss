@@ -5,86 +5,163 @@
 :root {
     box-sizing: border-box;
 }
+
 body {
     max-width: 1200px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     background: #f0f5fa;
     font-size: 20px;
-    
+
 }
-.header{
-   position: relative;
-    &__title{
+
+.header {
+    position: relative;
+
+    &__title {
         margin-top: 30px;
         padding-bottom: 10px;
         font-size: 45px;
         color: #101214;
     }
-    &__subtitle{
+
+    &__subtitle {
         font-size: 30px;
         color: #85b6e7;
     }
-    &__logo{
+
+    &__logo {
         height: 350px;
         position: absolute;
         top: 10px;
-        right: 200px;
-        
+        right: 80px;
+
     }
-    &__contacts{
+
+    &__contacts {
         margin-top: 30px;
         width: 600px;
         display: flex;
         flex-flow: row wrap;
-        
-        &-tel{
+
+        &-tel {
             width: 250px;
             padding: 10px 5px;
             text-decoration: none;
             cursor: pointer;
             color: rgb(32, 31, 31);
-            &:hover{
+
+            &:hover {
                 color: rgb(112, 139, 228);
                 transition: .4s;
             }
-            
+
         }
-   
+
     }
 }
-.Self-info{
+
+.Self-info {
     padding: 10px;
     border-top: solid 1px #000;
     width: 800px;
     margin-top: 50px;
-    &__title{
+
+    &__title {
         font-size: 30px;
     }
-    &__subtitle{
+
+    &__subtitle {
         padding-top: 20px;
     }
 }
-.skills{
+
+.skills {
     display: flex;
     justify-content: center;
     padding: 10px;
     border-top: solid 1px #000;
     margin-top: 50px;
-    &__text{
+
+    &__text {
         width: 500px;
     }
-    &__title{
+
+    &__title {
         font-size: 30px;
     }
-    &__description{
+
+    &__description {
         padding-top: 20px;
-        &-li{
+
+        &-li {
             padding-bottom: 10px;
         }
     }
-    &__subtitle{
-     width: 700px; 
-     padding-top: 20px; 
+
+    &__subtitle {
+        width: 700px;
+        padding: 20px 5px;
+    }
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    border-top: solid 1px #000;
+
+    &__workexp {
+        width: 600px;
+        border-right: solid 1px #000;
+        padding: 10px 20px;
+
+        &-title {
+            font-size: 30px;
+            margin: 20px 0px;
+        }
+    }
+
+    &__education {
+        border-right: solid 1px #000;
+        padding: 10px 20px;
+    }
+
+    &__english {
+        padding: 10px 20px;
+    }
+}
+
+.footer {
+    background: rgb(34, 50, 58);
+    height: 100px;
+
+    &__content {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+
+    }
+
+    &__git {
+        margin: 30px;
+
+        &-text {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+
+            &:hover {
+                color: rgb(112, 139, 228);
+                transition: .4s;
+            }
+        }
+    }
+
+    &__contacts {
+        margin: 30px;
+
+        &-logo {
+            height: 40px;
+        }
     }
 }
